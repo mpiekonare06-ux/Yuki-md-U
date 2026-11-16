@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "http://node.ambassador.seyori.name.ng:2011/api/:path*" },
+    { "source": "/dl/:path*", "destination": "http://node.ambassador.seyori.name.ng:2011/dl/:path*" },
+    { "source": "/yuki-md", "destination": "http://node.ambassador.seyori.name.ng:2011/yuki-md" },
+    { "source": "/yuki-md.apk", "destination": "http://node.ambassador.seyori.name.ng:2011/yuki-md.apk" }
+  ]
+}
